@@ -11,7 +11,7 @@
 - 网关可以做安全控制，也就是登录身份校验，校验通过才放行
 - 通过认证后，网关再根据请求判断应该访问哪个微服务，将请求转发过去
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\2.jpg" alt="img" style="zoom: 50%;" />
+<img src="..\springCloud-img\2.jpg" alt="img" style="zoom: 50%;" />
 
 在SpringCloud当中，提供了两种网关实现方案：
 
@@ -22,7 +22,7 @@
 
 https://spring.io/projects/spring-cloud-gateway#learn
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\网关组件.jpg" alt="img" style="zoom:50%;" />
+<img src="..\springCloud-img\网关组件.jpg" alt="img" style="zoom:50%;" />
 
 ## 1.2.快速入门
 
@@ -136,11 +136,11 @@ spring:
 
 其中routes对应的类型如下：
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\3.jpg" alt="img" style="zoom:50%;" />
+<img src="..\springCloud-img\3.jpg" alt="img" style="zoom:50%;" />
 
 是一个集合，也就是说可以定义很多路由规则。集合中的`RouteDefinition`就是具体的路由规则定义，其中常见的属性如下：
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\4.jpg" alt="img" style="zoom:50%;" />
+<img src="..\springCloud-img\4.jpg" alt="img" style="zoom:50%;" />
 
 四个属性含义如下：
 
@@ -188,13 +188,13 @@ spring:
 
 此时，登录校验的流程如图：
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\网关登录检验.jpg" alt="img" style="zoom: 33%;" />
+<img src="..\springCloud-img\网关登录检验.jpg" alt="img" style="zoom: 33%;" />
 
 ### 2.2.网关过滤器
 
 登录校验必须在请求转发到微服务之前做，否则就失去了意义。而网关的请求转发是`Gateway`内部代码实现的，要想在请求转发之前做登录校验，就必须了解`Gateway`内部工作的基本原理。
 
-<img src="D:\JavaNotes\springCloud\springCloud-img\网关请求处理流程.jpg" alt="img" style="zoom: 50%;" />
+<img src="..\springCloud-img\网关请求处理流程.jpg" alt="img" style="zoom: 50%;" />
 
 如图所示：
 
