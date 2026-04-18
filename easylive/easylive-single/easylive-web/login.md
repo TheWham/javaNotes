@@ -112,6 +112,6 @@ updateInfo --> getTokenInfo --> saveToken2Sesssion --> ReleaveCheckCode
         `分布式缓存功能`：Redis 作为一个高效的缓存解决方案，可以用于缓存会话数据，减轻后端服务器的负载。与传统的 Session 存储方式相比，使用 Redis 缓存会话数据可以大幅提高系统的性能和可扩展性。
         `可用性和可部署性`：Redis 是一个强大而成熟的开源工具，有丰富的社区支持和活跃的开发者社区。它可以轻松地与各种编程语言和框架集成，并且可以在多个操作系统上运行。
     
-    ### test
-    ![](assets/login/file-20260418135128269.png)
+
+    
     
