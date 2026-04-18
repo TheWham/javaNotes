@@ -11,14 +11,14 @@
             "id": "b43002f8628b30a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "easylive/easylive-single/easylive-web/login.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "login"
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Working Tree)"
             }
           }
         ]
@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "easylive/easylive-single/easylive-web/login.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "login 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -114,12 +113,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "easylive/easylive-single/easylive-web/login.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "login 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -157,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "easylive/easylive-single/easylive-web/login.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "login 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -181,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +194,7 @@
   },
   "active": "b43002f8628b30a1",
   "lastOpenFiles": [
-    "easyPan/img/2.png",
-    "easylive/easylive-single/easylive-web/login.md"
+    "easylive/easylive-single/easylive-web/login.md",
+    "easyPan/img/2.png"
   ]
 }
