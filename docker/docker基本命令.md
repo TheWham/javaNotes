@@ -101,7 +101,7 @@
   # 加载打包好的镜像
   # docker load [OPTIONS]
   # -i 要加载的压缩文件  -q 不显示压缩过程
-  docker load -i -q nginx.tar
+  docker load -i nginx.tar
   ```
 
 * **起别名**
