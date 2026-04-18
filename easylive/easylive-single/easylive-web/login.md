@@ -113,4 +113,5 @@ updateInfo --> getTokenInfo --> saveToken2Sesssion --> ReleaveCheckCode
         `可用性和可部署性`：Redis 是一个强大而成熟的开源工具，有丰富的社区支持和活跃的开发者社区。它可以轻松地与各种编程语言和框架集成，并且可以在多个操作系统上运行。
     
     ### test
+    ![](assets/login/file-20260418135128269.png)
     

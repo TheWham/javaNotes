@@ -11,14 +11,14 @@
             "id": "b43002f8628b30a1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "easylive/easylive-single/easylive-web/login.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "login"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -95,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "easylive/easylive-single/easylive-web/login.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "login 的反向链接列表"
             }
           },
           {
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "easylive/easylive-single/easylive-web/login.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "login 的出链列表"
             }
           },
           {
@@ -155,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "easylive/easylive-single/easylive-web/login.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "login 的大纲"
             }
           },
           {
@@ -178,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +197,10 @@
   },
   "active": "b43002f8628b30a1",
   "lastOpenFiles": [
+    "easylive/easylive-single/easylive-web/assets/login/file-20260418135128269.png",
+    "easylive/easylive-single/easylive-web/assets/login/file-20260418135005590.png",
+    "easylive/easylive-single/easylive-web/assets/login",
+    "easylive/easylive-single/easylive-web/assets",
     "easylive/easylive-single/easylive-web/login.md",
     "easyPan/img/2.png"
   ]
