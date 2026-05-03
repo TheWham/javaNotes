@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JVM/类加载机制.md",
+                "file": "JVM/类加载子系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "类加载机制"
+              "title": "类加载子系统"
             }
           }
         ]
@@ -198,12 +198,13 @@
   },
   "active": "b43002f8628b30a1",
   "lastOpenFiles": [
-    "JVM/assets/类加载机制/file-20260503190615357.png",
+    "JVM/assets/类加载子系统",
+    "JVM/assets/类加载子系统/file-20260503200854933.png",
     "JVM/assets/类加载机制/file-20260503190541187.png",
     "JVM/assets/类加载机制/file-20260503185804517.png",
     "JVM/assets/类加载机制",
     "JVM/java虚拟机的简单介绍.md",
-    "JVM/类加载机制.md",
+    "JVM/类加载子系统.md",
     "JVM/assets/java虚拟机的简单介绍",
     "JVM/assets/java虚拟机的简单介绍/file-20260503185120979.png",
     "JVM/assets/java虚拟机的简单介绍/file-20260503185120986.png",
@@ -219,7 +220,6 @@
     "easylive/easylive-single/easylive-web/assets/login/file-20260418135128269.png",
     "easylive/easylive-single/easylive-web/assets/login/file-20260418135005590.png",
     "easylive/easylive-single/easylive-web/assets/login",
-    "easylive/easylive-single/easylive-web/assets",
-    "easyPan/img/2.png"
+    "easylive/easylive-single/easylive-web/assets"
   ]
 }
