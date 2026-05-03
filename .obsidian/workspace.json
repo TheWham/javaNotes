@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -195,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d27e6964f37dd746",
+  "active": "b43002f8628b30a1",
   "lastOpenFiles": [
+    "JVM/assets/类加载机制/file-20260503185804517.png",
+    "JVM/assets/类加载机制",
     "JVM/java虚拟机的简单介绍.md",
     "JVM/类加载机制.md",
     "JVM/assets/java虚拟机的简单介绍",
