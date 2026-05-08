@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JVM/类加载子系统.md",
+                "file": "java面试/Java后端面试笔记_归纳拓展版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "类加载子系统"
+              "title": "Java后端面试笔记_归纳拓展版"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "easylive/easylive-single/easylive-web/login.md",
+                "file": "java面试/Java后端面试笔记_归纳拓展版.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "login 的大纲"
+              "title": "Java后端面试笔记_归纳拓展版 的大纲"
             }
           },
           {
@@ -177,12 +178,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17d55ec59943eea6",
+  "active": "4ccfea7d45bc6173",
   "lastOpenFiles": [
+    "JVM/类加载子系统.md",
+    "java面试/Java后端面试笔记_归纳拓展版.md",
     "java面试",
     "未命名.md",
-    "JVM/类加载子系统.md",
     "JVM/java虚拟机的简单介绍.md",
     "MQ/RabbitMQ高级.md",
     "未命名 1.canvas",
