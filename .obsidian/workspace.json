@@ -6,7 +6,6 @@
       {
         "id": "6ccec59820aafc07",
         "type": "tabs",
-        "dimension": 65.56490384615384,
         "children": [
           {
             "id": "17d55ec59943eea6",
@@ -21,28 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "类加载子系统"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9ccec262e9871710",
-        "type": "tabs",
-        "dimension": 34.43509615384615,
-        "children": [
-          {
-            "id": "3c113535122815fa",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "JVM/类加载子系统.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "类加载子系统 的大纲"
             }
           }
         ]
@@ -221,12 +198,14 @@
   },
   "active": "17d55ec59943eea6",
   "lastOpenFiles": [
+    "java面试",
+    "未命名.md",
+    "JVM/类加载子系统.md",
     "JVM/java虚拟机的简单介绍.md",
     "MQ/RabbitMQ高级.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "MQ/MQ学习笔记.md",
-    "JVM/类加载子系统.md",
     "JVM/assets/类加载子系统/file-20260503203712779.png",
     "JVM/assets/类加载子系统/file-20260503201645396.png",
     "JVM/assets/类加载子系统",
