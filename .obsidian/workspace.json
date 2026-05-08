@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java面试/Java后端面试笔记_归纳拓展版.md",
+                "file": "java面试/Java后端面试笔记_归纳拓展_结合简历版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Java后端面试笔记_归纳拓展版"
+              "title": "Java后端面试笔记_归纳拓展_结合简历版"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java面试/Java后端面试笔记_归纳拓展版.md",
+                "file": "java面试/Java后端面试笔记_归纳拓展_结合简历版.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java后端面试笔记_归纳拓展版 的大纲"
+              "title": "Java后端面试笔记_归纳拓展_结合简历版 的大纲"
             }
           },
           {
@@ -200,6 +200,7 @@
   "lastOpenFiles": [
     "JVM/类加载子系统.md",
     "java面试/Java后端面试笔记_归纳拓展版.md",
+    "java面试/Java后端面试笔记_归纳拓展_结合简历版.md",
     "java面试",
     "未命名.md",
     "JVM/java虚拟机的简单介绍.md",
