@@ -159,7 +159,7 @@
               "type": "outline",
               "state": {
                 "file": "java面试/Java后端面试笔记.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -182,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 444.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17d55ec59943eea6",
+  "active": "4ccfea7d45bc6173",
   "lastOpenFiles": [
     "javaStream/stream.md",
     "java面试/Java后端面试笔记.md",
