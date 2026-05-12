@@ -288,7 +288,17 @@ JDK 1.8 取消了 Segment，采用：**数组 + 链表 + 红黑树 + CAS + synch
 
 > 实际开发中大多数场景 ArrayList 更常用，因为业务中随机查询和遍历更多，LinkedList 虽然插入删除节点本身快，但找到节点也需要 O(n)，而且内存开销更大。
 
+## 5. 线程安全的List集合
+
+* **CopyOnWriteArrayList
+	* CopyOnWriteArrayList 每次写入都会复制整个底层数组, 生成一个新数组来承载修改, 读操作直接读旧数组, 完全不用加锁. 
+* **SynchronizedList** 
+	* synchronizedList就是给原来的List套一层壳, 每个方法都加synchronized, 读写都要抢同一把锁
+
+![](assets/Java后端面试笔记/file-20260512145208491.png)
 ---
+![697](assets/Java后端面试笔记/file-20260512145748656.png)
+
 
 # 三、并发编程
 
