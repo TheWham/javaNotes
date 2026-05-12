@@ -303,6 +303,9 @@ Java 创建线程常见方式有：
 3. 实现 `Callable` 接口，结合 `Future` 获取返回值。
 4. 实际开发中通常使用线程池。
 
+> Runnable和Callable的选择
+> 这两个接口的核心区别在于返回值和异常处理, Runnable的run()返回void, 也不能抛checked异常;Callable的call() 能返回任意类型, 也能抛异常.
+> 选择: 任务需要返回结果或者可能抛出异常用callable, 不需要就用Runnable, 但要注意Callable配合FutureTask使用时, get() 是阻塞的, 如果任务卡住了, 调用方也会一直等, 生产环境最好用带超时的get(timeout, unit)
 ### 面试话术
 
 > 开发中不建议频繁 new Thread，因为线程创建和销毁成本较高，而且不好统一管理。一般通过线程池复用线程，并控制并发数量。
