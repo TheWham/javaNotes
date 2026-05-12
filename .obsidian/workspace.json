@@ -182,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ccfea7d45bc6173",
+  "active": "17d55ec59943eea6",
   "lastOpenFiles": [
     "java面试/assets/Java后端面试笔记/file-20260512160526037.png",
     "java面试/assets/Java后端面试笔记/file-20260512160522092.png",
