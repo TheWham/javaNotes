@@ -314,9 +314,57 @@ JDK 1.8 取消了 Segment，采用：**数组 + 链表 + 红黑树 + CAS + synch
 #### 提问: CopyOnWriteArrayList能保证实时一致性吗?
 
 **回答:** 不能. 它只能保证最终一致性. 读操作读的是旧数据, 写操作在新数组上改, 改完才把引用切过去.在切换引用之前, 读线程看到的都是老数据. 如果业务上要求读到的必须是最新数据, 得加锁
+
+
 #### 提问: 如何让ArrayList实现线程安全:
 
-**回答:**
+**回答:** 
+* ### `Collections.synchronizedList()` — 同步包装器
+	* 最简单的方法，把 `ArrayList` 包一层：
+		```java
+		List<String> list = Collections.synchronizedList(new ArrayList<>());
+		```
+	- **原理**：返回的 `SynchronizedRandomAccessList` 或 `SynchronizedList`，内部几乎所有方法都用 `synchronized` 块包住了同一个互斥锁（mutex）。
+	    
+	- **优点**：改造快，所有单个操作（add、remove、get 等）都变成线程安全的。
+	    
+	- **注意陷阱——迭代必须手动加锁**：  
+	    `iterator()` 返回的迭代器本身**不是**线程安全的，遍历时必须手动对返回的包装列表加锁，否则依然可能抛出 `ConcurrentModificationException`
+	    ```java
+	    List<String> syncList = Collections.synchronizedList(new ArrayList<>());
+		synchronized (syncList) {
+		    for (String s : syncList) {
+		        System.out.println(s);
+		    }
+		}
+	    ```
+
+* ### `CopyOnWriteArrayList` — 写时复制列表
+	线程安全的 `List` 实现，位于 `java.util.concurrent` 包
+	```java
+	List<String> list = new CopyOnWriteArrayList<>();
+	```
+	- **原理**：任何修改操作（add、set、remove 等）都会先复制一份底层数组，在新数组上修改，最后把引用指向新数组，整个过程中持有 `ReentrantLock`。读操作（get、遍历）完全无锁，直接读取当前的数组快照。
+	    
+	- **优点**：读远多于写的场景性能极好；迭代器是“弱一致性”快照，遍历时即使有别的线程在修改，也不会抛 `ConcurrentModificationException`，更无需额外加锁。
+	    
+	- **缺点**：写操作开销大（复制数组 + 锁），内存占用高，不适合频繁修改的场景。
+	    
+	- **适合场景**：监听器列表、配置信息这种读多写少的集合。
+
+* ### 手动加锁 / 同步控制
+	如果你仍希望基于普通 `ArrayList`，可以在所有访问的地方自行加锁：
+	```java
+	private final List<String> list = new ArrayList<>();
+	private final Object lock = new Object();
+	
+	public void add(String s) {
+	    synchronized (lock) {
+	        list.add(s);
+	    }
+	}
+	```
+
 
 # 三、并发编程
 
