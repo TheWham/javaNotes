@@ -299,8 +299,9 @@ JDK 1.8 取消了 Segment，采用：**数组 + 链表 + 红黑树 + CAS + synch
 ---
 ![697](assets/Java后端面试笔记/file-20260512145748656.png)
 ### 面试话术
+#### 提问: CopyOnWriteArrayList能保证实时一致性吗?
 
-
+**回答:** 不能
 
 # 三、并发编程
 
