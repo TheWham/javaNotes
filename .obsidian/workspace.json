@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java面试/Java后端面试笔记.md",
+                "file": "xxl-job/分布式调度XXL-JOB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Java后端面试笔记"
+              "title": "分布式调度XXL-JOB"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java面试/Java后端面试笔记.md",
+                "file": "xxl-job/分布式调度XXL-JOB.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java后端面试笔记 的大纲"
+              "title": "分布式调度XXL-JOB 的大纲"
             }
           },
           {
@@ -198,14 +197,22 @@
   },
   "active": "17d55ec59943eea6",
   "lastOpenFiles": [
-    "java面试/assets/Java后端面试笔记/file-20260512160526037.png",
-    "java面试/assets/Java后端面试笔记/file-20260512160522092.png",
-    "java面试/assets/Java后端面试笔记/file-20260512160434912.png",
-    "java面试/assets/Java后端面试笔记/file-20260512145748656.png",
-    "java面试/assets/Java后端面试笔记/file-20260512145208491.png",
+    "java面试/Java后端面试笔记.md",
+    "xxl-job/分布式调度XXL-JOB.md",
+    "xxl-job/image/img_Qohm.png",
+    "xxl-job/image/img_Qohm(2).png",
+    "xxl-job/image/img_Qohm(1).png",
+    "xxl-job/image/image-20221102172248883.png",
+    "xxl-job/image/image-20221102172248883(2).png",
+    "xxl-job/image/image-20221102172248883(1).png",
+    "xxl-job/image/image-20221102172115256.png",
+    "xxl-job/image/image-20221102172115256(2).png",
+    "xxl-job/image/image-20221102172115256(1).png",
+    "xxl-job/image/image-20221102170055525.png",
+    "xxl-job/image",
+    "xxl-job",
     "java面试/assets/Java后端面试笔记",
     "java面试/assets",
-    "java面试/Java后端面试笔记.md",
     "javaStream/stream.md",
     "JVM/类加载子系统.md",
     "java面试/Java后端面试笔记_归纳拓展版.md",
@@ -216,19 +223,11 @@
     "未命名 1.canvas",
     "未命名.canvas",
     "MQ/MQ学习笔记.md",
-    "JVM/assets/类加载子系统/file-20260503203712779.png",
-    "JVM/assets/类加载子系统/file-20260503201645396.png",
     "JVM/assets/类加载子系统",
-    "JVM/assets/类加载子系统/file-20260503200854933.png",
-    "JVM/assets/类加载机制/file-20260503190541187.png",
-    "JVM/assets/类加载机制/file-20260503185804517.png",
     "JVM/assets/类加载机制",
     "JVM/assets/java虚拟机的简单介绍",
-    "JVM/assets/java虚拟机的简单介绍/file-20260503185120979.png",
     "JVM/assets/java虚拟机",
     "JVM/assets",
-    "easylive/easylive-single/easylive-web/login.md",
-    "JVM",
-    "easylive/easylive-single/easylive-web/assets/login"
+    "easylive/easylive-single/easylive-web/login.md"
   ]
 }
