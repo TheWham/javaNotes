@@ -268,25 +268,25 @@ public class SimpleXxlJob {
 
 登录调度中心,在任务管理中新增任务,配置内容如下:
 
-**![image-20221101100952650](image\image-20221101100952650.png)**
+**![image-20221101100952650](xxl-job/image/image-20221101100952650.png)**
 
 新增后界面如下:
 
-**![image-20221101101555269](image\image-20221101101555269.png)**
+**![image-20221101101555269](xxl-job/image/image-20221101101555269.png)**
 
 接着启动定时调度任务
 
-**![image-20221101101737502](image\image-20221101101737502.png)**
+**![image-20221101101737502](xxl-job/image/image-20221101101737502.png)**
 
 #### 2.5.2 查看日志
 
 在调度中心的调度日志中就可以看到，任务的执行结果.
 
-![image-20221101101850629](image\image-20221101101850629.png)
+![image-20221101101850629](xxl-job/image/image-20221101101850629.png)
 
 管控台也可以看到任务的执行信息.
 
-**![image-20221101101958510](image\image-20221101101958510.png)**
+**![image-20221101101958510](xxl-job/image/image-20221101101958510.png)**
 
 ### 2.6 GLUE模式(Java)
 
@@ -310,11 +310,11 @@ public class HelloService {
 
 **添加任务配置**
 
-**![image-20221102172115256](image/image-20221102172115256.png)**
+**![image-20221102172115256](xxl-job/image/image-20221102172115256.png)**
 
 **通过GLUE IDE在线编辑代码**
 
-**![image-20221102172248883](image/image-20221102172248883.png)**
+**![image-20221102172248883](xxl-job/image/image-20221102172248883.png)**
 
 ****
 
@@ -347,7 +347,7 @@ public class DemoGlueJobHandler extends IJobHandler {
 
 在IDEA中设置SpringBoot项目运行开启多个集群
 
-**![image-20221101145048598](image\image-20221101145048598.png)**
+**![image-20221101145048598](xxl-job/image/image-20221101145048598.png)**
 
 启动两个SpringBoot程序,需要修改Tomcat端口和执行器端口
 
@@ -365,17 +365,17 @@ public class DemoGlueJobHandler extends IJobHandler {
 
 在任务管理中，修改路由策略，修改成`轮询`
 
-![image-20221101150421458](image\image-20221101150421458.png)
+![image-20221101150421458](xxl-job/image/image-20221101150421458.png)
 
 重新启动,我们可以看到效果是,定时任务会在这两台机器中进行轮询的执行
 
 - 8090端口的控制台日志如下:
 
-  **![image-20221101150852090](image\image-20221101150852090.png)**
+  **![image-20221101150852090](xxl-job/image/image-20221101150852090.png)**
 
 - 8091端口的控制台日志如下:
 
-  **![image-20221101150938313](image\image-20221101150938313.png)**
+  **![image-20221101150938313](xxl-job/image/image-20221101150938313.png)**
 
 #### 2.6.2 调度路由算法讲解
 
@@ -502,7 +502,7 @@ public void sendMsgHandler() throws Exception{
 
 **任务配置信息**
 
-**![image-20221102164333453](image/image-20221102164333453.png)**
+**![image-20221102164333453](xxl-job/image/image-20221102164333453.png)**
 
 ### 3.2 分片概念讲解
 
@@ -567,7 +567,6 @@ public void sendMsgShardingHandler() throws Exception{
 
 **任务设置**
 
-**![image-20221102170055525](image/image-20221102170055525.png)**
+**![image-20221102170055525](xxl-job/image/image-20221102170055525.png)**
 
 ##  4. 项目集成XXL-JOB
-
