@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17d55ec59943eea6",
+  "active": "d27e6964f37dd746",
   "lastOpenFiles": [
     "java面试/Java后端面试笔记.md",
     "xxl-job/分布式调度XXL-JOB.md",
