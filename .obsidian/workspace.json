@@ -11,15 +11,12 @@
             "id": "17d55ec59943eea6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "xxl-job/分布式调度XXL-JOB.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "xxl-job/image/image-20221101101555269(2).png"
               },
-              "icon": "lucide-file",
-              "title": "分布式调度XXL-JOB"
+              "icon": "lucide-image",
+              "title": "image-20221101101555269(2)"
             }
           }
         ]
@@ -157,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xxl-job/分布式调度XXL-JOB.md",
+                "file": "xxl-job/image/image-20221101101555269(2).png",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "分布式调度XXL-JOB 的大纲"
+              "title": "image-20221101101555269(2) 的大纲"
             }
           },
           {
@@ -195,10 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d27e6964f37dd746",
+  "active": "17d55ec59943eea6",
   "lastOpenFiles": [
-    "java面试/Java后端面试笔记.md",
+    "xxl-job/image/image-20221028162443072(2).png",
+    "xxl-job/image/image-20221028162443072.png",
+    "xxl-job/image/image-20221028153927837.png",
+    "未命名 1.base",
+    "未命名.base",
     "xxl-job/分布式调度XXL-JOB.md",
+    "java面试/Java后端面试笔记.md",
     "xxl-job/image/img_Qohm.png",
     "xxl-job/image/img_Qohm(2).png",
     "xxl-job/image/img_Qohm(1).png",
@@ -207,8 +209,6 @@
     "xxl-job/image/image-20221102172248883(1).png",
     "xxl-job/image/image-20221102172115256.png",
     "xxl-job/image/image-20221102172115256(2).png",
-    "xxl-job/image/image-20221102172115256(1).png",
-    "xxl-job/image/image-20221102170055525.png",
     "xxl-job/image",
     "xxl-job",
     "java面试/assets/Java后端面试笔记",
@@ -226,8 +226,6 @@
     "JVM/assets/类加载子系统",
     "JVM/assets/类加载机制",
     "JVM/assets/java虚拟机的简单介绍",
-    "JVM/assets/java虚拟机",
-    "JVM/assets",
     "easylive/easylive-single/easylive-web/login.md"
   ]
 }
