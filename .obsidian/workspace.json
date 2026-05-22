@@ -11,12 +11,14 @@
             "id": "17d55ec59943eea6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "xxl-job/image/image-20221101101555269(2).png"
+                "file": "java面试/Java后端面试笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image-20221101101555269(2)"
+              "icon": "lucide-file",
+              "title": "Java后端面试笔记"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "484ab89042193b7a",
@@ -154,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xxl-job/image/image-20221101101555269(2).png",
+                "file": "java面试/Java后端面试笔记.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "image-20221101101555269(2) 的大纲"
+              "title": "Java后端面试笔记 的大纲"
             }
           },
           {
@@ -178,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 570.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17d55ec59943eea6",
+  "active": "4ccfea7d45bc6173",
   "lastOpenFiles": [
+    "xxl-job/分布式调度XXL-JOB.md",
+    "xxl-job/image/image-20221101101555269(2).png",
     "xxl-job/image/image-20221028162443072(2).png",
     "xxl-job/image/image-20221028162443072.png",
     "xxl-job/image/image-20221028153927837.png",
     "未命名 1.base",
     "未命名.base",
-    "xxl-job/分布式调度XXL-JOB.md",
     "java面试/Java后端面试笔记.md",
     "xxl-job/image/img_Qohm.png",
     "xxl-job/image/img_Qohm(2).png",
@@ -207,8 +211,6 @@
     "xxl-job/image/image-20221102172248883.png",
     "xxl-job/image/image-20221102172248883(2).png",
     "xxl-job/image/image-20221102172248883(1).png",
-    "xxl-job/image/image-20221102172115256.png",
-    "xxl-job/image/image-20221102172115256(2).png",
     "xxl-job/image",
     "xxl-job",
     "java面试/assets/Java后端面试笔记",
