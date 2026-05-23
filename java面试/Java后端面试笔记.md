@@ -1222,7 +1222,7 @@ Redis 4.0 后可以开启 RDB + AOF 混合持久化：
 `reids_num = CRC16(key) mod redis_all_num`
 
 ![](assets/Java后端面试笔记/file-20260524003336094.png)
-但是这种方式存在很大的问题, 如果前期没有规划好redis_all_num容量,
+但是这种方式存在很大的问题, 如果前期没有规划好`redis_all_num`容量, 那么总数量就会改变 `redis_num`也会改变最后大概率导致 所有数据都要进行重新迁移
 # 九、消息队列 MQ
 
 ## 1. MQ 作用
