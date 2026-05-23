@@ -1219,9 +1219,10 @@ Redis 4.0 后可以开启 RDB + AOF 混合持久化：
 
 **切分方式:**
 我们可以对多个redis节点进行编号 然后将key的值跟redis节点总数进行求余 
-`reids_num = CRE`
+`reids_num = CRC16(key) mod redis_all_num`
 
 ![](assets/Java后端面试笔记/file-20260524003336094.png)
+但是这种方式存在很大的问题, 如果前期没有规划好redis_all_num容量,
 # 九、消息队列 MQ
 
 ## 1. MQ 作用
