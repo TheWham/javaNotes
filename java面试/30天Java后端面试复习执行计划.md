@@ -33,38 +33,38 @@
 
 ## 二、30 天每日计划
 
-| 天数 | 今天学什么 | 必须完成的目标 |
-|---|---|---|
-| Day 1 | 简历、自我介绍、两个项目总览 | 写出 2 分钟自我介绍，能讲清视频平台和交易平台分别做了什么 |
-| Day 2 | Java 面向对象、接口、抽象类、final、equals/hashCode | 能回答 Java 基础 8 个问题 |
-| Day 3 | String、异常、泛型、反射、IO/NIO、Stream | 补齐 Java 基础追问，能说清反射和异常体系 |
-| Day 4 | HashMap、ArrayList、LinkedList、HashSet | 能讲清 HashMap 底层、扩容、树化、线程不安全 |
-| Day 5 | synchronized、volatile、CAS | 能回答 volatile 为什么不保证原子性 |
-| Day 6 | AQS、ReentrantLock、ThreadLocal | 能讲清 AQS、锁区别、ThreadLocal 内存泄漏 |
-| Day 7 | 线程池 + 第一周复盘 | 完成一次 30 分钟 Java/并发模拟面试 |
-| Day 8 | JVM 内存区域、对象创建 | 能画出 JVM 内存结构并解释每块作用 |
-| Day 9 | 类加载、双亲委派、GC Roots | 能回答类加载和 GC 基础追问 |
-| Day 10 | OOM、CPU 飙高排查 | 能说出 jps、jstack、jmap 排查流程 |
-| Day 11 | Spring IOC、AOP | 能结合消息通知模块讲 AOP |
-| Day 12 | Bean 生命周期、自动装配 | 能讲清 Spring Boot 自动装配机制 |
-| Day 13 | Spring 事务 | 能列出事务失效场景和解决方式 |
-| Day 14 | SpringMVC、MyBatis | 能讲清一次请求从 Controller 到 SQL 的流程 |
-| Day 15 | MySQL B+Tree、聚簇索引、回表、覆盖索引 | 能回答索引 8 连问 |
-| Day 16 | ACID、隔离级别、MVCC | 能讲清 ReadView 和 undo log |
-| Day 17 | SQL 优化、最左前缀、索引失效、EXPLAIN | 能看 EXPLAIN 说出优化方向 |
-| Day 18 | 间隙锁、临键锁、死锁、redo/undo/binlog | 能回答死锁排查和三大日志区别 |
-| Day 19 | Redis 数据结构、缓存、计数、ZSet | 能把 Redis 结构对应到项目功能 |
-| Day 20 | 缓存穿透、击穿、雪崩、分布式锁 | 能回答 Redis 和 MySQL 不一致怎么办 |
-| Day 21 | RDB/AOF、淘汰策略、BigKey、HotKey、Cluster | 能防守 Redis 深挖问题 |
-| Day 22 | RabbitMQ 基础、交换机、confirm、ack | 能讲完整消息可靠性链路 |
-| Day 23 | 重复消费、死信队列、消息积压、顺序消息 | 能回答 MQ 宕机、积压、重复消费怎么办 |
-| Day 24 | Nacos、Gateway、OpenFeign、Sentinel | 能讲清微服务请求链路和失败兜底 |
-| Day 25 | TCP、HTTP/HTTPS、JWT、跨域、DNS | 补齐网络短板 |
-| Day 26 | Maven、Git、Linux、Docker | 能回答工程排查类问题 |
-| Day 27 | 视频项目：投稿、互动、播放量、观看历史、消息通知 | 能 15 分钟讲完整视频平台核心设计 |
-| Day 28 | 视频项目：ES、AI 搜索、FFmpeg、Redis/MQ 故障 | 能回答视频项目异常兜底 |
-| Day 29 | 交易项目：秒杀、下单、延迟队列、Redis List | 能讲清防超卖、一人一单、失败补偿 |
-| Day 30 | 全真模拟面试 | 技术面 30 分钟 + 项目面 20 分钟 + HR 面 10 分钟 |
+| 天数     | 今天学什么                                  | 必须完成的目标                            |
+| ------ | -------------------------------------- | ---------------------------------- |
+| Day 1  | 简历、自我介绍、两个项目总览                         | 写出 2 分钟自我介绍，能讲清视频平台和交易平台分别做了什么     |
+| Day 2  | Java 面向对象、接口、抽象类、final、equals/hashCode | 能回答 Java 基础 8 个问题                  |
+| Day 3  | String、异常、泛型、反射、IO/NIO、Stream          | 补齐 Java 基础追问，能说清反射和异常体系            |
+| Day 4  | HashMap、ArrayList、LinkedList、HashSet   | 能讲清 HashMap 底层、扩容、树化、线程不安全         |
+| Day 5  | synchronized、volatile、CAS              | 能回答 volatile 为什么不保证原子性             |
+| Day 6  | AQS、ReentrantLock、ThreadLocal          | 能讲清 AQS、锁区别、ThreadLocal 内存泄漏       |
+| Day 7  | 线程池 + 第一周复盘                            | 完成一次 30 分钟 Java/并发模拟面试             |
+| Day 8  | JVM 内存区域、对象创建                          | 能画出 JVM 内存结构并解释每块作用                |
+| Day 9  | 类加载、双亲委派、GC Roots                      | 能回答类加载和 GC 基础追问                    |
+| Day 10 | OOM、CPU 飙高排查                           | 能说出 jps、jstack、jmap 排查流程           |
+| Day 11 | Spring IOC、AOP                         | 能结合消息通知模块讲 AOP                     |
+| Day 12 | Bean 生命周期、自动装配                         | 能讲清 Spring Boot 自动装配机制             |
+| Day 13 | Spring 事务                              | 能列出事务失效场景和解决方式                     |
+| Day 14 | SpringMVC、MyBatis                      | 能讲清一次请求从 Controller 到 SQL 的流程      |
+| Day 15 | MySQL B+Tree、聚簇索引、回表、覆盖索引              | 能回答索引 8 连问                         |
+| Day 16 | ACID、隔离级别、MVCC                         | 能讲清 ReadView 和 undo log            |
+| Day 17 | SQL 优化、最左前缀、索引失效、EXPLAIN               | 能看 EXPLAIN 说出优化方向                  |
+| Day 18 | 间隙锁、临键锁、死锁、redo/undo/binlog            | 能回答死锁排查和三大日志区别                     |
+| Day 19 | Redis 数据结构、缓存、计数、ZSet                  | 能把 Redis 结构对应到项目功能                 |
+| Day 20 | 缓存穿透、击穿、雪崩、分布式锁                        | 能回答 Redis 和 MySQL 不一致怎么办           |
+| Day 21 | RDB/AOF、淘汰策略、BigKey、HotKey、Cluster     | 能防守 Redis 深挖问题                     |
+| Day 22 | RabbitMQ 基础、交换机、confirm、ack            | 能讲完整消息可靠性链路                        |
+| Day 23 | 重复消费、死信队列、消息积压、顺序消息                    | 能回答 MQ 宕机、积压、重复消费怎么办               |
+| Day 24 | Nacos、Gateway、OpenFeign、Sentinel       | 能讲清微服务请求链路和失败兜底                    |
+| Day 25 | TCP、HTTP/HTTPS、JWT、跨域、DNS              | 补齐网络短板                             |
+| Day 26 | Maven、Git、Linux、Docker                 | 能回答工程排查类问题                         |
+| Day 27 | 视频项目：投稿、互动、播放量、观看历史、消息通知               | 能 15 分钟讲完整视频平台核心设计                 |
+| Day 28 | 视频项目：ES、AI 搜索、FFmpeg、Redis/MQ 故障       | 能回答视频项目异常兜底                        |
+| Day 29 | 交易项目：秒杀、下单、延迟队列、Redis List             | 能讲清防超卖、一人一单、失败补偿                   |
+| Day 30 | 全真模拟面试                                 | 技术面 30 分钟 + 项目面 20 分钟 + HR 面 10 分钟 |
 
 ---
 
