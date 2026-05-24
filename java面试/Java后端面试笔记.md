@@ -1251,8 +1251,7 @@ Redis 4.0 后可以开启 RDB + AOF 混合持久化：
 ![539](assets/Java后端面试笔记/file-20260524012428014.png)
 
 
-Redis集群模式:
-
+https://www.bilibili.com/video/BV1LjuGzYE8m?t=264.9
 
 
 
