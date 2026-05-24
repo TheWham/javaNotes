@@ -308,10 +308,11 @@ JDK 1.8 取消了 Segment，采用：**数组 + 链表 + 红黑树 + CAS + synch
 	* CopyOnWriteArrayList 每次写入都会复制整个底层数组, 生成一个新数组来承载修改, 读操作直接读旧数组, 完全不用加锁. 
 * **SynchronizedList** 
 	* synchronizedList就是给原来的List套一层壳, 每个方法都加synchronized, 读写都要抢同一把锁
-
-![](assets/Java后端面试笔记/file-20260512145208491.png)
+	![](assets/Java后端面试笔记/file-20260512145208491.png)
+	
+	![](assets/Java后端面试笔记/file-20260512145208491.png)
 ---
-![697](assets/Java后端面试笔记/file-20260512145748656.png)
+	![697](assets/Java后端面试笔记/file-20260512145748656.png)
 ### 面试话术
 #### 提问: CopyOnWriteArrayList能保证实时一致性吗?
 
