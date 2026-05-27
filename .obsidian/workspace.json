@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +197,8 @@
   },
   "active": "17d55ec59943eea6",
   "lastOpenFiles": [
+    "java面试/30天Java后端面试复习执行计划.md",
+    "java面试/Java后端面试笔记.md",
     "java面试/assets/Java后端面试笔记/file-20260524163244496.png",
     "java面试/assets/Java后端面试笔记/file-20260524163000982.png",
     "java面试/assets/Java后端面试笔记/file-20260524162705824.png",
@@ -207,10 +209,7 @@
     "java面试/assets/Java后端面试笔记/file-20260524012428014.png",
     "java面试/assets/Java后端面试笔记/file-20260524012015906.png",
     "java面试/assets/Java后端面试笔记/file-20260524011834089.png",
-    "java面试/assets/Java后端面试笔记/file-20260524011503835.png",
     "未命名.md",
-    "java面试/Java后端面试笔记.md",
-    "java面试/30天Java后端面试复习执行计划.md",
     "xxl-job/分布式调度XXL-JOB.md",
     "未命名 1.base",
     "未命名.base",
